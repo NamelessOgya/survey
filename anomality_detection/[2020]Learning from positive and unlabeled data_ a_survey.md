@@ -21,10 +21,10 @@ positiveデータがpositiveデータに含まれるかunlabeledに含まれる�
 共変量の値によって、どちらに含まれるかが確率的に決まること  
 
 ## データのassumetion  
-- **■separability**  
+- **separability**  
 positive/negativeがある閾値を境にくっきりとわかれること  
   
-- **■smoothness**  
+- **smoothness**  
 確率分布が唐突に変化しないこと  
 共変量が似たインスタンスは似た確率をとる。
 >According to the smoothness assumption, examples that are close to each other are more
