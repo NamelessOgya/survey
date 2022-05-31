@@ -12,7 +12,7 @@ https://link.springer.com/content/pdf/10.1007/s10994-020-05877-5.pdf
  #  assumpution   
  assumptionによって用いるべき解法が異なる。
  
- ## positiveデータの割り振りに関するassumption
+ ### positiveデータの割り振りに関するassumption
  
 - **selected completely as random**  
 positiveデータがpositiveデータに含まれるかunlabeledに含まれるかはランダムに決まること  
