@@ -34,8 +34,10 @@ $X_{nu}$か存在しない値の部分でサージ的にモデルの出力を大
 	- $\partial f(t) = C(\partial f(t)t - f(t)) + \hat{f}(t)$ で決まる$\hat{f}$も上から抑えられている。
 
 この時、
+
 ![cef06b60eaf1af665bcc1e7cba82140c](https://user-images.githubusercontent.com/54636129/172040986-7665ec62-103c-4723-87f3-815b53d3f303.png)
 ![74848f1a7ff6dcb7ade9b2313ea0185a](https://user-images.githubusercontent.com/54636129/172040998-edc626ed-e4c8-4f7c-95ef-0cb1b547249c.png)
+
 を使うことにより、過学習を抑えた学習が可能。
 
 ## これから読むもの
