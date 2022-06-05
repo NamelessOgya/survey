@@ -22,7 +22,7 @@ density ratio estimationのタスクにflexibleなモデルを使うとoverfitti
 $X_{nu}$か存在しない値の部分でサージ的にモデルの出力を大きくすることにより
 無限に小さくすることが可能なので、こういった極端な方向に学習が進んでしまう。
 （overfitしてしまう）
- ![ef2c1ced6cb7b1da64fa558632d0106c.png](https://github.com/NamelessOgya/survey/blob/edit/_resources/ef2c1ced6cb7b1da64fa558632d0106c.png)
+ ![17b8afcc012a420d82335f425e059ad9](https://user-images.githubusercontent.com/54636129/172040947-67083a4b-6e6a-4356-98fd-10c95b65bb45.png)
 
 ## train-loss hackingを解決するNon-negative BD
 いくつかの仮定をおくことで、この問題を回避することが可能。
@@ -34,8 +34,8 @@ $X_{nu}$か存在しない値の部分でサージ的にモデルの出力を大
 	- $\partial f(t) = C(\partial f(t)t - f(t)) + \hat{f}(t)$ で決まる$\hat{f}$も上から抑えられている。
 
 この時、
-![cef06b60eaf1af665bcc1e7cba82140c.png](https://github.com/NamelessOgya/survey/blob/edit/_resources/cef06b60eaf1af665bcc1e7cba82140c.png)
-![74848f1a7ff6dcb7ade9b2313ea0185a.png](https://github.com/NamelessOgya/survey/blob/edit/_resources/74848f1a7ff6dcb7ade9b2313ea0185a.png)
+![cef06b60eaf1af665bcc1e7cba82140c](https://user-images.githubusercontent.com/54636129/172040986-7665ec62-103c-4723-87f3-815b53d3f303.png)
+![74848f1a7ff6dcb7ade9b2313ea0185a](https://user-images.githubusercontent.com/54636129/172040998-edc626ed-e4c8-4f7c-95ef-0cb1b547249c.png)
 を使うことにより、過学習を抑えた学習が可能。
 
 ## これから読むもの

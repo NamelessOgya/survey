@@ -72,5 +72,5 @@ BOT検知
 ![1f465aa40a2fdaf128f8fd60b2e0d496](https://user-images.githubusercontent.com/54636129/172040843-d0591b5b-1a63-4c35-91e3-6955fb06a479.png)
 BERTモデルはその他のEncoderと比べてもいい成果を出せている。
 （これならBOWの方がよくない？って見方もありそう。）
-![ee76faa71869647f522a180319b0e7b0.png](https://github.com/NamelessOgya/survey/blob/edit/_resources/ee76faa71869647f522a180319b0e7b0.png?raw=true)
+![ee76faa71869647f522a180319b0e7b0](https://user-images.githubusercontent.com/54636129/172040905-d5190b83-f653-47cf-9ca2-e37c4caafb2c.png)
 BERTモデルはtask-specificなモデルと比べてもよい成果を出せている。
