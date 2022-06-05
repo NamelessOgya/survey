@@ -68,9 +68,9 @@ BOT検知
 
 上記3タスクはcross entroy, 類似プレイヤに関してはクラスタリングを用いた。
 
-##　結果
-![1f465aa40a2fdaf128f8fd60b2e0d496.png](../_resources/1f465aa40a2fdaf128f8fd60b2e0d496.png)
+## 結果
+![1f465aa40a2fdaf128f8fd60b2e0d496.png](https://github.com/NamelessOgya/survey/blob/edit/_resources/1f465aa40a2fdaf128f8fd60b2e0d496.png)
 BERTモデルはその他のEncoderと比べてもいい成果を出せている。
 （これならBOWの方がよくない？って見方もありそう。）
-![ee76faa71869647f522a180319b0e7b0.png](../_resources/ee76faa71869647f522a180319b0e7b0.png)
+![ee76faa71869647f522a180319b0e7b0.png](https://github.com/NamelessOgya/survey/blob/edit/_resources/ee76faa71869647f522a180319b0e7b0.png)
 BERTモデルはtask-specificなモデルと比べてもよい成果を出せている。
