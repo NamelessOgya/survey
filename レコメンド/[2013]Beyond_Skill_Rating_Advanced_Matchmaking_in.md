@@ -1,4 +1,5 @@
 ## Beyond Skill Rating: Advanced Matchmaking in Ghost Recon Online  
+http://www.iro.umontreal.ca/~lisa/bib/pub_subject/language/pointeurs/gro-matchmaking-ieee.pdf  
 楽しめたかの基準にアンケート結果を使う論文..　　
 のはずだったが、実際にはアンケートデータを使っておらず、シミュレーションにとどまっている。  
 ## intro  
