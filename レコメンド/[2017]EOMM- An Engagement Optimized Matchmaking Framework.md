@@ -1,4 +1,5 @@
 ## EOMM: An Engagement Optimized Matchmaking Framework  
+http://web.cs.ucla.edu/~yzsun/papers/WWW17Chen_EOMM  
 EAが作ったマッチングシステムに関する論文  
 コンテンツ実装に関しては記載がなくシミュレーションのみ。  
 ### intro  
