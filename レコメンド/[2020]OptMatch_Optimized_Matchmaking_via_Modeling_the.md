@@ -1,6 +1,8 @@
 ## OptMatch: Optimized Matchmaking via Modeling the High-Order Interactions on the Arena  
 https://linxiagong.github.io/myPapers/KDD2020_OptMatch.pdf  
 Neteaseのマッチングシステム  
+おそらくFever basketballというのはこれのこと  
+https://play.google.com/store/apps/details?id=com.netease.dunkcd&hl=en_US&gl=PH
   
 ### 全体の構成  
 ![image](https://user-images.githubusercontent.com/54636129/195452262-74176582-0afa-460c-b5b7-70a64b9a7bbc.png)  
