@@ -1,4 +1,5 @@
 ## QuickSkill: Novice Skill Estimation in Online Multiplayer Games  
+https://arxiv.org/pdf/2208.07704.pdf
 tencentの論文。  
 既存のレーティングシステムが収束するまでに18試合程度かかってしまうという問題点を解決するために、  
 試合中のスナップショットデータを使って将来のMMR(レート)を予測する。  
@@ -37,7 +38,7 @@ tencentの論文。
   チームがコントロールするキャラクター   
 - game feature embedding  
   上に上げた統計値のembedding
-- position embedding
+- position embedding  
   positional encodingみたいなもの  
   データが何分時点のものなのかをencodingする。  
 これらのembeddingデータはconcatされ、OmniNetsに送られる。  
