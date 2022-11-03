@@ -1,4 +1,4 @@
-## LogBERT: Log Anomaly Detection via BERT
+## [2021]LogBERT: Log Anomaly Detection via BERT
 
 ## introduction / Related work
 * PCA やSVMなどいった手法では、離散的ログの時間的情報をとらえるのが難しい。
