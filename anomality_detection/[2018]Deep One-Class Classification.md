@@ -25,6 +25,7 @@ One class SVDDをDeep learningで行うというもの。
 ![image](https://user-images.githubusercontent.com/54636129/200242389-692114cb-2758-48f0-8506-d5fbf5d33eec.png)  
 
 ### 学習の際の注意  
+すべての点が一点にあつまるような関数ができないように工夫が必要  
 - 円中心に0を選ばない  
   すべての点を0にmapするようなNNが出来上がってしまうため。  
 - ニューラルネットにbias項を加えない  
