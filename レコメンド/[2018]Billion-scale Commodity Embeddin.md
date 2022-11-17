@@ -23,7 +23,8 @@ https://arxiv.org/pdf/1803.02349.pdf
   ![image](https://user-images.githubusercontent.com/54636129/202562785-16badfe4-162a-45f9-a420-0cce9ff1ea29.png)  
 
 - side informationをつかったグラフエンベティング  
-  - 商品のcold start問題を解決するために、商品のサブカテゴリのembeddingを見る。  
+  - 商品のcold start/sparsity問題を解決するために、商品のサブカテゴリのembeddingを見る。  
+    - 取引情報が少ない場合はカテゴリ情報を重視するような挙動に期待
   - それぞれのサブカテゴリに対して得られたembeddingベクトル（これはどう出すのか不明）を重みづけして足し合わせることで、
   商品ベクトルを得る。
   - ![image](https://user-images.githubusercontent.com/54636129/202564610-05b6367a-1422-4957-899c-46533a6793a9.png)  
