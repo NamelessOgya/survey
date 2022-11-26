@@ -4,3 +4,4 @@
 - GPUのON/OFF  
 - プリエンプティブルインスタンスの使用  
 - BQへのI/O  
+- Vertex AI model registoryの利用？
