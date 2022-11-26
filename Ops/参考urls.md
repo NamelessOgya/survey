@@ -7,7 +7,9 @@
 https://www.kubeflow.org/docs/components/pipelines/v1/sdk/sdk-overview/
 - tutorial
 https://colab.research.google.com/github/GoogleCloudPlatform/vertex-ai-samples/blob/main/notebooks/official/pipelines/lightweight_functions_component_io_kfp.ipynb?hl=ja#scrollTo=title%3Ageneric  
-  
+
+- GCSをクライアントから操作するblob  
+https://cloud.google.com/python/docs/reference/storage/latest/google.cloud.storage.blob.Blob
 
 ## やってみた話
 Kubeflow PipelinesからVertex Pipelinesへの移行による運用コスト削減  
