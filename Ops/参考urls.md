@@ -10,6 +10,12 @@ https://colab.research.google.com/github/GoogleCloudPlatform/vertex-ai-samples/b
 
 - GCSをクライアントから操作するblob  
 https://cloud.google.com/python/docs/reference/storage/latest/google.cloud.storage.blob.Blob
+  
+- preemptible node  
+公式やってみた記事  
+https://cloud.google.com/blog/ja/products/ai-machine-learning/reduce-the-costs-of-ml-workflows-with-preemptible-vms-and-gpus  
+nodepoolとは何か  
+https://cloud.google.com/kubernetes-engine/docs/concepts/node-pools  
 
 ## やってみた話
 Kubeflow PipelinesからVertex Pipelinesへの移行による運用コスト削減  
