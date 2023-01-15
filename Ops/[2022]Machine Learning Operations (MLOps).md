@@ -1,5 +1,6 @@
 # [2022]Machine Learning Operations (MLOps):Overview, Definition, and Architecture  
-論文調査や有識者へのヒアリングを通して、MLOpsがについてまとめた論文
+論文調査や有識者へのヒアリングを通して、MLOpsについてまとめた論文  
+[論文](https://arxiv.org/abs/2205.02302)
 # Results  
 ## Principles  
 ![image](https://user-images.githubusercontent.com/54636129/203879535-19793766-8c2e-42a2-bc9a-44cf173d5dfe.png)  
