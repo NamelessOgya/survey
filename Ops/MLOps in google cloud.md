@@ -71,10 +71,12 @@ models will come from. Moreover, data can also come directly
 from any kind of data store.
 - 実験用の通常レイテンシのデータベースと予測用の低レイテンシのデータベースが必要  
   - モデルを製品として導入する際には必要なのかも？
-- 
+
 ## 疑問  
 通常のデータベースではなく、Feature Storeを使うのはなぜか。  
-⇒　（調査中）
+[Feature Storeについて説明](https://www.nogawanogawa.com/entry/feature_store)  
+- 複数の特徴量を複数人が編集するような規模の組織ではなく 
+- Online servingを行わないような組織においては必要ないのではないか
 
 ## ソリューション  
 **Vetex AI Feature Store**[リンク](https://cloud.google.com/vertex-ai/docs/featurestore/overview?hl=ja)  
