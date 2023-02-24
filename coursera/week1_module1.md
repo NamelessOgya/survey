@@ -1,0 +1,11 @@
+## Introductory video  
+## Welcome to Statistical Inference
+## Some introductory comments  
+## Pre-Course Survey  
+## Syllabus  
+## Course Book: Statistical Inference for Data Science  
+## homeworks  
+http://bcaffo.github.io/courses/06_StatisticalInference/homework/hw1.html#1
+http://bcaffo.github.io/courses/06_StatisticalInference/homework/hw2.html#1
+http://bcaffo.github.io/courses/06_StatisticalInference/homework/hw3.html#1
+http://bcaffo.github.io/courses/06_StatisticalInference/homework/hw4.html#1

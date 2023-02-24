@@ -34,3 +34,4 @@ MLOps
       - monitor
       - govern
 
+https://developers.google.com/machine-learning/crash-course/classification/precision-and-recall?hl=ja
