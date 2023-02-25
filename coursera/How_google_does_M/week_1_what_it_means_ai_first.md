@@ -16,11 +16,11 @@ machine learning frame
   - what date we need to collect
   - what .. analyze  
   - what data are we reacting to  
-  reaction to predicted result  
+  reaction against predicted result  
 
 ## Infuse your apps with ML  
 take advantage of pre-trained model  
-pre trained aip is useful  
+pre trained api is useful  
   
 ## Build a data strategy around ML  
 - rules and models  
@@ -72,7 +72,7 @@ pre trained aip is useful
   - Assume the data is ready for use  
   - keep human in the roop  
     - we must keep human in the roop to keep quality high
-  - product launch focused on thw ML algorithm  
+  - product launch focused on the ML algorithm  
   - ML optimizing for the wrong thing
   - Is your ML improving things in the real world  
     - monitoring system is needed  
@@ -112,5 +112,20 @@ ordinal business process has feedback roop, which continuously refine the qualit
       -  pay high marginal cost
       -  more voice say automation isnt possible
       -  organizational lock in
-3. 
+3. Digition  
+    - Danger of skipping tgis step
+      - you will always need infra
+    - Dangers of lingering too long here  
+      - lose against your competitor
+4. measure and achiece data-driven success(Big data analysis)  
+    - Danger of skipping tgis step  
+      - unclean data means no ML training  
+      - cant measure success
+    - Dangers of lingering too long here  
+      - limit the complexity of oriblem you can solve
+5. Machine learning  
 
+ref  
+https://medium.com/@ssatyajitmaitra/ml-strategy-for-machine-learning-projects-7b674e3bbb9  
+https://medium.com/machine-learning-in-practice/first-things-first-you-need-a-data-strategy-before-you-can-have-a-machine-learning-strategy-366f8439aedf  
+https://medium.com/thelaunchpad/the-ml-surprise-f54706361a6c  
