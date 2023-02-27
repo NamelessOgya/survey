@@ -20,7 +20,7 @@
     - package
     - deploy
     - monitor
-- what is there to unify
+- what is there to unify  
   - dataset is 
     - created
     - ingested
@@ -31,4 +31,10 @@
     - versioned
     - evaluated
     - deployed
-- 
+# components of vertex AI  
+overviews of vertex ai product  
+# Getting Started with Google Cloud Platform and Qwiklabs  
+# Lab intro: Using an image dataset to train an AutoML model  
+# Lab demo: Using an image dataset to train an AutoML model  
+
+
