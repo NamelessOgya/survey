@@ -9,12 +9,15 @@ url:https://cdn.aaai.org/ocs/11673/11673-51288-1-PB.pdf
 
 ## 先行技術と比べてどこがすごい。
 - 部分的に情報が隠蔽された環境においても。DQNと同等の性能を再現できた。
-
+- LSTMの隠れ層の情報と実際の情報との距離を測ると、CNNよりも距離が小さいことがわかった。
+    - これらのことからLSTMの方がより情報補完できていることがうかがえる。
+- MDPで学習したモデルをPOMDPにおいて試験した場合でも、LSTMの方が優れた精度を出した。
 ## 技術や手法の特異点はどこか  
 - Q値推定モデルにRNNを使っている。
 
 ## 議論はあるか  
-なし
+- Pongにおいて精度改善が見られたが、その他のゲームにおいては改善が見られなかったため、RNNは系統的な利点はないといえる。
+    - どういったドメインにおいて有効なのかをリサーチしていく必要がある。
 
 #　Introduction　　
 - 現行のDQNには限られた個数の過去情報しか使用できないという制限がある。  
@@ -51,6 +54,7 @@ url:https://cdn.aaai.org/ocs/11673/11673-51288-1-PB.pdf
 
 # DRQN Architecture  
 - 既存の4つの画像分の情報をconvolutionしていた部分をRNNで処理し、フルコネレイヤをかませる。
+- ![image](https://github.com/NamelessOgya/survey/assets/54636129/d0a6a4dd-3416-4f68-a0ae-021e33eebce3)  
 # Stable Recurrent Updates  
 - Bootstrapped Sequential Updates:
     - episodeを一つ選んで、それを最初から最後まで学習する。
@@ -60,3 +64,28 @@ url:https://cdn.aaai.org/ocs/11673/11673-51288-1-PB.pdf
     - update開始の都度、stateは初期化される。
 - squential updateは長期間の依存性を学習できることが期待される一方、経験再生のヒューリスティックに反するという欠点がある。
 - 実験の結果、両者は同じくらいのパフォーマンスだったので、より単純なrandom側を採用。
+
+# Flickering Pong POMDP  
+- POMDPの再現のために作られた特殊なPONG
+- pの確率で画面が全く見えなくなる。
+
+# Generalization Performance  
+- pを少しづつあげながらRNN / CNNを比較。
+- CNNの性能はp=0.6程度で頭打ちになったが、RNNはpの上昇に伴い上がり続けた。
+- RNNの性能はCNNのそれより一貫して高かった。
+
+# Can DRQN Mimic an Unobscured Pong player?  
+- 人間と同様に、見えないフレームを推測してプレイしているのかを調べる。
+- 同じゲームに対して、一部フレームが見えない場合のstateと全部が見えている場合のstateのeuclidean距離を比較する。もし見えないフレームも予測しているのなら、距離は小さい値になるはず。
+    - 距離はDRQNにおいてDQNよりも小さくなっていた。
+- 前回見えていたフレームからの距離を指標に比較しても同じ結果だった。
+
+# Evaluation on Standard Atari Games  
+![image](https://github.com/NamelessOgya/survey/assets/54636129/5f33764d-ecda-429c-b3d5-2c2bdf3f2ae0)  
+![image](https://github.com/NamelessOgya/survey/assets/54636129/93afed36-5eae-41ae-b161-d56fa5531389)  
+- beam riderにおいては有意に敗北、Pongにおいては有意に勝利した。
+- CNNと比べてあんまり変わらないようにも見える。
+
+# Discussion and Conclusion  
+- Pongにおいて精度改善が見られたが、その他のゲームにおいては改善が見られなかったため、RNNは系統的な利点はないといえる。
+    - どういったドメインにおいて有効なのかをリサーチしていく必要がある。
