@@ -18,6 +18,19 @@ url:https://arxiv.org/pdf/2303.05197.pdf
 ## 議論はあるか  
 なし
 
+## 研究用メモ  
+- 環境からの入力情報
+    - CB stage
+        - observation: すべてのカード/ 選択されているカード/ 今選択肢にあるカードが表示される。
+        - action: カード選択の多項分布
+    - BT stage  
+        - observation space: include all observable info 
+        - action space:
+            - カード一枚プレイのアクションには二つのアクションを要する。
+                - type: {自分の手札のカード, 自分のボードのカード, 敵のボードのカード, 自分のヒロパ, ターンカード}
+                - target: {自分ヒーロー, 敵ヒーロー, 自分ボード, 敵ボード}
+                - 二つの組み合わせでカードをプレイする。  
+
 ## 次に読むもの  
 - 本論文を引用しているreview  
     - [ ] https://arxiv.org/pdf/2305.11814.pdf  
